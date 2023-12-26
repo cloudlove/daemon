@@ -30,7 +30,7 @@ type Worker interface {
 ```go
 package main
 
-import "github.com/medivh-jay/daemon"
+import "github.com/cloudlove/daemon"
 ```
 
 - First, create an object implement daemon.Worker, such as ...
@@ -41,7 +41,7 @@ package main
 import (
     "context"
     "fmt"
-    "github.com/medivh-jay/daemon"
+    "github.com/cloudlove/daemon"
     "net/http"
 )
 
@@ -92,7 +92,7 @@ func (httpServer *HTTPServer) Restart() error {
 package main
 
 import (
-    "github.com/medivh-jay/daemon"
+    "github.com/cloudlove/daemon"
     "log"
     "os"
 )
