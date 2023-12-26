@@ -1,4 +1,4 @@
-module github.com/kenretto/daemon
+module github.com/cloudlove/daemon
 
 go 1.13
 
